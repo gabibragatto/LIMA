@@ -1,0 +1,27 @@
+/*comentários */
+body {
+    background-color:cornflowerblue ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+div {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+}
+li {
+    color: darkblue;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.texto {
+    color: darkred;
+    font-size: 20px;
+    font-style: italic;
+}
+#texto2 {
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: bold;
+}
