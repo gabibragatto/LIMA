@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -8,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bloom, uma cafeteria literária">
 
+    <!-- Título da página -->
     <title>Bloom Café e Livros</title>
+
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Arquivo CSS -->
     <link rel="stylesheet" href="assets/CSS/style.css">
@@ -18,12 +23,12 @@
 
     <!-- Cabeçalho da página -->
     <header>
-        <h1>Bloom 🌸☕</h2>
+        <h1>Bloom 🌸☕</h1>
         <p>Cafeteria literária</p>
     </header>
 
     <!-- Menu de navegação -->
-    <nav>
+    <nav aria-label="Navegação principal">
         <ul>
             <li><a href="#sobre">Sobre nós</a></li>
             <li><a href="#cardapio">Cardápio</a></li>
@@ -43,18 +48,20 @@
                 para quem ama café, livros e momentos tranquilos.
             </p>
 
-            <!-- Imagem da cafeteria -->
-            <img src="assets/img/bloom-cafe.jpg" tamanho="grande">
+            <!-- Imagem da cafeteria com texto alternativo -->
+            <img
+                src="assets/img/bloom-cafe.jpg"
+                alt="Ambiente aconchegante da cafeteria Bloom">
         </section>
 
         <!-- Seção do cardápio -->
         <section id="cardapio">
-            <h2>Nosso Cardápio</h3>
+            <h2>Nosso Cardápio</h2>
 
             <ul>
                 <li>Café</li>
                 <li>Chocolate quente</li>
-                <li>Bolo de chocolate
+                <li>Bolo de chocolate</li>
                 <li>Cookies</li>
             </ul>
         </section>
@@ -67,10 +74,9 @@
                 Na Bloom, você pode escolher um livro e pedir
                 seu café favorito, aproveitando um momento de leitura.
             </p>
-        </section>
 
-        <!-- Elemento inválido para teste -->
-        <livros>Confira nossas leituras favoritas!</livros>
+            <p>Confira nossas leituras favoritas!</p>
+        </section>
 
     </main>
 
