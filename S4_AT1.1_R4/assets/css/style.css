@@ -1,12 +1,14 @@
+
 /* Configuração geral da página */
 body {
     font-family: "Quicksand", sans-serif;
     background-color: #f7f1e8;
     color: #4a3b32;
     margin: 0;
+    line-height: 1.6;
 }
 
-/* Cabeçalho */
+/* Cabeçalho da página */
 header {
     text-align: center;
     background-color: #d8c3a5;
@@ -22,6 +24,32 @@ header p {
     font-size: 18px;
 }
 
+/* Menu de navegação */
+nav {
+    background-color: #fffaf4;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #795548;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 /* Conteúdo principal */
 main {
     width: 80%;
@@ -29,7 +57,7 @@ main {
     margin: 30px auto;
 }
 
-/* Seções */
+/* Seções de conteúdo */
 section {
     background-color: #fffaf4;
     padding: 20px;
@@ -37,8 +65,29 @@ section {
     border-radius: 10px;
 }
 
+/* Títulos das seções */
 h2 {
     color: #795548;
+}
+
+/* Imagens */
+section img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+/* Texto do elemento de teste */
+livros {
+    display: block;
+    background-color: #fffaf4;
+    color: #795548;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
 }
 
 /* Rodapé */
@@ -46,4 +95,19 @@ footer {
     text-align: center;
     background-color: #d8c3a5;
     padding: 20px;
+}
+
+/* Adaptação para telas menores */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
 }
